@@ -5,19 +5,18 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B71D145-5E43-4A32-BC27-ADA679A0366C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDescriptor", "src\EnumDescriptor\EnumDescriptor.csproj", "{6BCE8771-2E76-4EA5-B137-3200CF945AED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumDescriptor", "src\EnumDescriptor\EnumDescriptor.csproj", "{6BCE8771-2E76-4EA5-B137-3200CF945AED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5C618F44-0D62-4308-82B5-3BAE902D643D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDescriptor.Tests", "tests\EnumDescriptor.Tests\EnumDescriptor.Tests.csproj", "{B9FE5C5B-C5CE-40D3-AC70-D90114E69019}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumDescriptor.Tests", "tests\EnumDescriptor.Tests\EnumDescriptor.Tests.csproj", "{B9FE5C5B-C5CE-40D3-AC70-D90114E69019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDescriptor.Benchmarks", "tests\EnumDescriptor.Benchmarks\EnumDescriptor.Benchmarks.csproj", "{151A1A81-D5FB-448C-A405-6E0B565FF9C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6BCE8771-2E76-4EA5-B137-3200CF945AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -28,9 +27,20 @@ Global
 		{B9FE5C5B-C5CE-40D3-AC70-D90114E69019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9FE5C5B-C5CE-40D3-AC70-D90114E69019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9FE5C5B-C5CE-40D3-AC70-D90114E69019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151A1A81-D5FB-448C-A405-6E0B565FF9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151A1A81-D5FB-448C-A405-6E0B565FF9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151A1A81-D5FB-448C-A405-6E0B565FF9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151A1A81-D5FB-448C-A405-6E0B565FF9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6BCE8771-2E76-4EA5-B137-3200CF945AED} = {3B71D145-5E43-4A32-BC27-ADA679A0366C}
 		{B9FE5C5B-C5CE-40D3-AC70-D90114E69019} = {5C618F44-0D62-4308-82B5-3BAE902D643D}
+		{151A1A81-D5FB-448C-A405-6E0B565FF9C8} = {5C618F44-0D62-4308-82B5-3BAE902D643D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2B52E25-E64E-4063-9B7B-41A90A7073AF}
 	EndGlobalSection
 EndGlobal
