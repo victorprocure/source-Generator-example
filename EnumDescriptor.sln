@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumDescriptor.Tests", "tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDescriptor.Benchmarks", "tests\EnumDescriptor.Benchmarks\EnumDescriptor.Benchmarks.csproj", "{151A1A81-D5FB-448C-A405-6E0B565FF9C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDescriptor.Sample", "tests\EnumDescriptor.Sample\EnumDescriptor.Sample.csproj", "{F63F6891-164A-4A04-9FED-98FBAD5A6058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{151A1A81-D5FB-448C-A405-6E0B565FF9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{151A1A81-D5FB-448C-A405-6E0B565FF9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{151A1A81-D5FB-448C-A405-6E0B565FF9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63F6891-164A-4A04-9FED-98FBAD5A6058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63F6891-164A-4A04-9FED-98FBAD5A6058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63F6891-164A-4A04-9FED-98FBAD5A6058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63F6891-164A-4A04-9FED-98FBAD5A6058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{6BCE8771-2E76-4EA5-B137-3200CF945AED} = {3B71D145-5E43-4A32-BC27-ADA679A0366C}
 		{B9FE5C5B-C5CE-40D3-AC70-D90114E69019} = {5C618F44-0D62-4308-82B5-3BAE902D643D}
 		{151A1A81-D5FB-448C-A405-6E0B565FF9C8} = {5C618F44-0D62-4308-82B5-3BAE902D643D}
+		{F63F6891-164A-4A04-9FED-98FBAD5A6058} = {5C618F44-0D62-4308-82B5-3BAE902D643D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2B52E25-E64E-4063-9B7B-41A90A7073AF}

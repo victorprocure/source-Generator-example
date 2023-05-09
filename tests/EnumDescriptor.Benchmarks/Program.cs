@@ -2,4 +2,4 @@
 
 using EnumDescriptor.Benchmarks;
 
-BenchmarkRunner.Run<ManualToStringBenchmarks>();
+BenchmarkRunner.Run<ToStringBenchmarks>();

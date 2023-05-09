@@ -1,0 +1,15 @@
+Step 1 Benchmarks:
+|                     Method |      Mean |     Error |    StdDev |
+|--------------------------- |----------:|----------:|----------:|
+| OptimizedToStringBenchmark |  3.762 ns | 0.0817 ns | 0.0764 ns |
+|     ToStringNaiveBenchmark | 22.617 ns | 0.2726 ns | 0.2277 ns |
+
+
+
+
+Step 3 Benchmarks:
+|                     Method |      Mean |     Error |    StdDev |
+|--------------------------- |----------:|----------:|----------:|
+| GeneratedToStringBenchmark |  3.833 ns | 0.0533 ns | 0.0498 ns |
+| OptimizedToStringBenchmark |  8.058 ns | 0.1126 ns | 0.1053 ns |
+|     ToStringNaiveBenchmark | 21.839 ns | 0.2069 ns | 0.1834 ns |

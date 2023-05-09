@@ -10,8 +10,14 @@ using EnumDescriptor.Core;
 
 namespace EnumDescriptor.Benchmarks
 {
-    public class ManualToStringBenchmarks
+    public class ToStringBenchmarks
     {
+        [Benchmark]
+        public string GeneratedToStringBenchmark()
+        {
+            return BenchmarkEnum.Value1.ToStringFast();
+        }
+
         [Benchmark]
         public string OptimizedToStringBenchmark()
         {
